@@ -91,6 +91,7 @@ Pertama - tama, buat situs baru yaitu www.strix.operation.wise.f09.com dengan me
 
   ... 
  ```
+      
 ![Screenshot Soal 14a](https://github.com/mlintang20/Jarkom-Modul-2-F09-2022/blob/master/img/no_14a.png)    
     
 Lalu, setting port listen dengan baris berikut di /etc/apache2/ports.conf :
@@ -100,7 +101,9 @@ Lalu, setting port listen dengan baris berikut di /etc/apache2/ports.conf :
 Listen 15000
 Listen 15500      
 ...
-```      
+```    
+      
+![Screenshot Soal 14b](https://github.com/mlintang20/Jarkom-Modul-2-F09-2022/blob/master/img/no_14b.png)     
       
 Aktifkan situs dan restart apache2
       
@@ -112,7 +115,25 @@ service apache2 restart
 Kemudian, buat dokumen root dengan membuat folder/direktori di /var/www       
       
 `mkdir /var/www/strix.operation.wise.f09.com`
-
+      
+Download zip untuk soal strix.operation.wise di drive yang sudah disediakan, isi root dengan file yang ada di zip tersebut
+      
+```
+wget https://drive.google.com/file/d/1bgd3B6VtDtVv2ouqyM8wLyZGzK5C9maT/view?usp=share_link  
+      
+unzip strix.operation.wise.zip      
+cp -R strix.operation.wise/* /var/www/strix.operation.wise.f09.com
+```
+      
+Kemudian lynx domain.
+      
+```
+lynx strix.operation.wise.f09.com:15000
+lynx strix.operation.wise.f09.com:15500
+```      
+      
+![Screenshot Soal 14c](https://github.com/mlintang20/Jarkom-Modul-2-F09-2022/blob/master/img/no_14c.png)    
+      
 ## NO. 15
       
 ### Dengan autentikasi username Twilight dan password opStrix dan file di /var/www/strix.operation.wise.yyy.com.
