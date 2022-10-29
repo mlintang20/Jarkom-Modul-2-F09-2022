@@ -91,6 +91,7 @@ Pertama - tama, buat situs baru yaitu www.strix.operation.wise.f09.com dengan me
 
   ... 
  ```
+![Screenshot Soal 14a](https://github.com/mlintang20/Jarkom-Modul-2-F09-2022/blob/master/img/no_14a.png)    
     
 Lalu, setting port listen dengan baris berikut di /etc/apache2/ports.conf :
       
