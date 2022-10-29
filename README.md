@@ -27,7 +27,21 @@
 
 pertama kita membuat topologi seperti yang ada pada soal.
 
-!(https://github.com/mlintang20/Jarkom-Modul-2-F09-2022/blob/ea97bf3a5d69b25325d1a53da730192b2c348f33/img/no_1a.png)
+![no 1](https://github.com/mlintang20/Jarkom-Modul-2-F09-2022/blob/master/img/no_1a.png)
+
+lalu untuk mengecheck apakah semua node sudah terkoneksi internet , kita dapat mencoba dengan meng-ping google.com.
+
+### wise
+![wise](https://github.com/mlintang20/Jarkom-Modul-2-F09-2022/blob/master/img/no_1b.png)
+
+![Berlint](https://github.com/mlintang20/Jarkom-Modul-2-F09-2022/blob/master/img/no_1c.png)
+
+![Eden](https://github.com/mlintang20/Jarkom-Modul-2-F09-2022/blob/master/img/no_1d.png)
+
+![SSS](https://github.com/mlintang20/Jarkom-Modul-2-F09-2022/blob/master/img/no_1e.png)
+
+![GARDEN](https://github.com/mlintang20/Jarkom-Modul-2-F09-2022/blob/master/img/no_1f.png)
+
 
 ## NO 11.
 
