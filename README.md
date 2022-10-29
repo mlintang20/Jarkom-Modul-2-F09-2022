@@ -125,7 +125,7 @@ unzip strix.operation.wise.zip
 cp -R strix.operation.wise/* /var/www/strix.operation.wise.f09.com
 ```
       
-Kemudian lynx domain.
+Kemudian lynx domain di Eden.
       
 ```
 lynx strix.operation.wise.f09.com:15000
@@ -152,6 +152,8 @@ Buka konfigurasi strix.operation.wise.f09.com.conf di /etc/apache2/sites-availab
 </Directory>
 ...
 ```
+
+![Screenshot Soal 15a](https://github.com/mlintang20/Jarkom-Modul-2-F09-2022/blob/master/img/no_15a.png)         
       
 Buat username dan password menggunakan htpasswd
       
@@ -170,4 +172,10 @@ lynx strix.operation.wise.f09.com:15500
       
 Maka hasilnya akan seperti ini :
 
-Gambar
+![Screenshot Soal 15b](https://github.com/mlintang20/Jarkom-Modul-2-F09-2022/blob/master/img/no_15b.png)
+      
+![Screenshot Soal 15c](https://github.com/mlintang20/Jarkom-Modul-2-F09-2022/blob/master/img/no_15c.png) 
+      
+![Screenshot Soal 15d](https://github.com/mlintang20/Jarkom-Modul-2-F09-2022/blob/master/img/no_15d.png)  
+      
+![Screenshot Soal 15e](https://github.com/mlintang20/Jarkom-Modul-2-F09-2022/blob/master/img/no_15e.png)      
