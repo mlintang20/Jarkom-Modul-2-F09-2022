@@ -33,13 +33,13 @@ lalu untuk mengecheck apakah semua node sudah terkoneksi internet , kita dapat m
 
 ### wise
 ![wise](https://github.com/mlintang20/Jarkom-Modul-2-F09-2022/blob/master/img/no_1b.png)
-
+### Berlint
 ![Berlint](https://github.com/mlintang20/Jarkom-Modul-2-F09-2022/blob/master/img/no_1c.png)
-
+### Eden
 ![Eden](https://github.com/mlintang20/Jarkom-Modul-2-F09-2022/blob/master/img/no_1d.png)
-
+### SSS
 ![SSS](https://github.com/mlintang20/Jarkom-Modul-2-F09-2022/blob/master/img/no_1e.png)
-
+### garden
 ![GARDEN](https://github.com/mlintang20/Jarkom-Modul-2-F09-2022/blob/master/img/no_1f.png)
 
 
