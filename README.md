@@ -98,6 +98,34 @@ service bind9 restart
 
 ![NO7](img/no_7b.png)
 
+## NO 8.
+
+### Setelah melakukan konfigurasi server, maka dilakukan konfigurasi Webserver. Pertama dengan webserver www.wise.yyy.com. Pertama, Loid membutuhkan webserver dengan DocumentRoot pada /var/www/wise.yyy.com
+
+### **Jawab :**
+
+- Pada folder **/etc/apache2/sites-available/** buat file konfigurasi baru bernama **/etc/apache2/sites-available/wise.F09.com.conf** yang meng-copy dari file **/etc/apache2/sites-available/000-default.conf**. Masuk dulu ke folder **/etc/apache2/** `cd /etc/apache2` kemudian copy file `cp 000-default.conf wise.F09.com.conf`
+
+- Kemudian pada file **/etc/apache2/sites-available/wise.F09.com.conf** tambahkan _SeverName_ dan _ServerAlias_ menjadi seperti berikut
+
+![NO8](img/no_8a.png)
+
+- Aktifkan file konfigurasi dengan menggunakan a2ensite: `a2ensite wise.F09.com.conf`
+
+- Buat folder baru **/var/www/wise.F09.com/** seperti pada dengan posisi dan nama folder yang sama pada _DocumentRoot_ : `mkdir /var/www/wise.F09.com/`
+
+- Download file-file yang dibutuhkan menggunakan `wget` kemudian unzip file-file itu menggunakan `unzip` dan pindahkan ke dalam folder **/var/www/wise.F09.com/**
+
+![NO8](img/no_8b.png)
+
+- Testing dengan melakukan lynx ke **www.wise.F09.com**
+
+```
+lynx www.wise.F09.com
+```
+
+![NO8](img/no_8c.png)
+
 ## NO 11.
 
 ### Akan tetapi, pada folder /public, Loid ingin hanya dapat melakukan directory listing saja.
