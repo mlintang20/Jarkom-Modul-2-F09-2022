@@ -25,9 +25,10 @@
 
 ### Semua node terhubung pada router Ostania, sehingga dapat mengakses internet 
 
-pertama kita membuat topologi seperti yang ada pada soal.dd
+pertama kita membuat topologi seperti yang ada pada soal.
 
-[!https://github.com/mlintang20/Jarkom-Modul-2-F09-2022/blob/ea97bf3a5d69b25325d1a53da730192b2c348f33/img/no_1a.png]
+!(https://github.com/mlintang20/Jarkom-Modul-2-F09-2022/blob/ea97bf3a5d69b25325d1a53da730192b2c348f33/img/no_1a.png)
+
 ## NO 11.
 
 ### Akan tetapi, pada folder /public, Loid ingin hanya dapat melakukan directory listing saja.
