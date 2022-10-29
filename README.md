@@ -336,3 +336,9 @@ Maka hasilnya akan seperti ini :
 ![Screenshot Soal 15d](https://github.com/mlintang20/Jarkom-Modul-2-F09-2022/blob/master/img/no_15d.png)
 
 ![Screenshot Soal 15e](https://github.com/mlintang20/Jarkom-Modul-2-F09-2022/blob/master/img/no_15e.png)
+
+## Kendala yang Dialami
+
+- Beberapa kali terjadi error dan lama untuk menemukan solusinya, ternyata perlu untuk restart bind9 `service bind9 restart`
+- Beberapa kali terjadi error pada web server dan lama untuk menemukan solusinya, ternyata perlu untuk restart apache2 `service apache2 restart`
+- Tidak bisa ping karena ada yang typo pada file-file konfigurasi
