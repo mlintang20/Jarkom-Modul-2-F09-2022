@@ -31,7 +31,7 @@ Untuk melakukan directory listing pada folder /public, di dalam file konfigurasi
 
 `<Directory /var/www/eden.wise.f09.com/public>
     Option +Indexes
- </Directory>
+ </Directory>`
     
 Setelah itu, kita bisa melakukan lynx domain www.eden.wise.f09.com/public dan akan mendapatkan hasil seperti berikut :
     
@@ -45,7 +45,7 @@ Gambar
     
 Untuk mengganti error kode pada apache, maka file konfigurasi bisa ditambahkan baris seperti berikut :
     
-`ErrorDocument 404 /error/404.html
+`ErrorDocument 404 /error/404.html`
     
  Setelah itu, kita bisa melakukan lynx domain yang salah, maka akan mendapatkan hasil seperti berikut :   
     
@@ -84,6 +84,6 @@ Pertama - tama, buat situs baru yaitu www.strix.operation.wise.f09.com dengan me
   DocumentRoot /var/www/strix.operation.wise.f09.com
   ServerAlias www.strix.operation.wise.f09.com
 
-  ...`
+  ... `
     
     
