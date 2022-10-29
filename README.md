@@ -43,7 +43,7 @@ lalu untuk mengecheck apakah semua node sudah terkoneksi internet , kita dapat m
 ![GARDEN](https://github.com/mlintang20/Jarkom-Modul-2-F09-2022/blob/master/img/no_1f.png)
 
 
-## NO 3.
+
 
 ## NO 2.
 
@@ -60,9 +60,16 @@ berikut adalah hasilnya setelah dicoba:
 ![hasil](https://github.com/mlintang20/Jarkom-Modul-2-F09-2022/blob/master/img/no_2c.png)
 
 
-<<<<<<< HEAD
-=======
-![https://github.com/mlintang20/Jarkom-Modul-2-F09-2022/blob/ea97bf3a5d69b25325d1a53da730192b2c348f33/img/no_1a.png]
+## NO 3.
+### Setelah itu ia juga ingin membuat subdomain eden.wise.yyy.com dengan alias www.eden.wise.yyy.com yang diatur DNS-nya di WISE dan mengarah ke Eden
+
+Memodifikasi config pada file `/etc/bind/wise/wise.f09.com`. Menggunakan NS untuk mendelegasikan zone yang telah dibuat pada eden.wise.f09com. Untuk membuat alias www.eden.wise.f09.com menggunakan CNAME. Berikut adalah modifikasi config yang telah dilakukan:
+
+
+![3.a](https://github.com/mlintang20/Jarkom-Modul-2-F09-2022/blob/master/img/no_3a.png)
+
+tes melakukan ping ke `eden.wise.F09.com` , dan dapat dilihat berhasil:
+![hasil](https://github.com/mlintang20/Jarkom-Modul-2-F09-2022/blob/master/img/no_3b.png)
 
 ## NO 6.
 
@@ -207,7 +214,6 @@ lynx www.wise.F09.com
 
 ![NO10](img/no_10c.png)
 
->>>>>>> b60b1e377567b5ccb59ad7a6af8584cd7094f81a
 ## NO 11.
 
 ### Akan tetapi, pada folder /public, Loid ingin hanya dapat melakukan directory listing saja.
