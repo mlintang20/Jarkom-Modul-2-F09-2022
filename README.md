@@ -84,6 +84,20 @@ service bind9 restart
 
 ![NO6](img/no_6e.png)
 
+## NO 7.
+
+### Untuk informasi yang lebih spesifik mengenai Operation Strix, buatlah subdomain melalui Berlint dengan akses strix.operation.wise.yyy.com dengan alias www.strix.operation.wise.yyy.com yang mengarah ke Eden
+
+### **Jawab :**
+
+- Membuat subdomain strix (strix.operation.wise.F09.com) dalam subdomain operation dan juga alias dari strix (www.strix.operation.wise.F09.com) dengan edit file **/etc/bind/operation/operation.wise.F09.com** menjadi seperti berikut:
+
+![NO7](img/no_7a.png)
+
+- Untuk testing, lakukan ping ke **strix.operation.wise.F09.com** dan **www.strix.operation.wise.F09.com** dari client SSS
+
+![NO7](img/no_7b.png)
+
 ## NO 11.
 
 ### Akan tetapi, pada folder /public, Loid ingin hanya dapat melakukan directory listing saja.
