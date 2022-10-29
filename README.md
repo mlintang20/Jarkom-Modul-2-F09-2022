@@ -75,8 +75,10 @@ Gambar
     
 Pertama - tama, buat situs baru yaitu www.strix.operation.wise.f09.com dengan mengcopy paste template config 0000-default.conf yang ada di /etc/apache2/sites-available dengan :
     
-`cd /etc/apache2/sites-available/
- cp 0000.default.conf strix.operation.wise.f09.com.conf`
+```
+ cd /etc/apache2/sites-available/
+ cp 0000.default.conf strix.operation.wise.f09.com.conf
+```
     
  Masuk ke dalam konfigurainya, dan lakukan beberapa edit dengan menyetting port menjadi 15000 dan 15500, dan sesuaikan ServerName, DocumentRoot, dan ServerAlias.
     
@@ -90,4 +92,60 @@ Pertama - tama, buat situs baru yaitu www.strix.operation.wise.f09.com dengan me
   ... 
  ```
     
-    
+Lalu, setting port listen dengan baris berikut di /etc/apache2/ports.conf :
+      
+```
+...
+Listen 15000
+Listen 15500      
+...
+```      
+      
+Aktifkan situs dan restart apache2
+      
+```
+a2ensite strix.operation.wise.f09.com
+service apache2 restart
+```
+      
+Kemudian, buat dokumen root dengan membuat folder/direktori di /var/www       
+      
+`mkdir /var/www/strix.operation.wise.f09.com`
+
+## NO. 15
+      
+### Dengan autentikasi username Twilight dan password opStrix dan file di /var/www/strix.operation.wise.yyy.com.
+      
+### **Jawab :**
+      
+Buka konfigurasi strix.operation.wise.f09.com.conf di /etc/apache2/sites-available dan tambahkan edit konfigurasi dengan menambahkan baris autentikasi berikut :
+      
+```
+...
+<Directory "/var/www/strix.operation.wise.f09.com">
+    AuthType Basic
+    AuthName "Restricted Content"
+    AuthUserFile /etc/apache2/.htpasswd
+    Require valid-user
+</Directory>
+...
+```
+      
+Buat username dan password menggunakan htpasswd
+      
+`htpasswd -c /etc/apache2/.htpasswd Twilight`
+      
+Setelah itu password akan diminta untuk akun Twilight. Apabila berhasil dalam membuat password, maka restart apache2
+      
+`service apache2 restart`
+      
+Test lynx di SSS
+      
+```
+lynx strix.operation.wise.f09.com:15000
+lynx strix.operation.wise.f09.com:15500
+```
+      
+Maka hasilnya akan seperti ini :
+
+Gambar
