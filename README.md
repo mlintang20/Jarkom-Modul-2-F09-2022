@@ -42,6 +42,19 @@ lalu untuk mengecheck apakah semua node sudah terkoneksi internet , kita dapat m
 ### garden
 ![GARDEN](https://github.com/mlintang20/Jarkom-Modul-2-F09-2022/blob/master/img/no_1f.png)
 
+## NO 2.
+
+### Untuk mempermudah mendapatkan informasi mengenai misi dari Handler, bantulah Loid membuat website utama dengan akses wise.yyy.com dengan alias www.wise.yyy.com pada folder wise.
+
+pertama kita tambahkan 'wise.F09.com' pada file `/etc/bind/named.conf.local`
+
+lalu memodifikasi config pada `/etc/bind/wise/wise.f09.com` Menggunakan NS untuk mendelegasikan zone yang telah dibuat pada wise.F09.com, kemudian domain dipetakan pada IP Eden. lalu menggunakan Cname untuk membuat alias website www.F09.com. berikut adalah hasilnya:
+
+![hasil](https://github.com/mlintang20/Jarkom-Modul-2-F09-2022/blob/master/img/no_2b.png)
+
+berikut adalah hasilnya setelah dicoba:
+![hasil](https://github.com/mlintang20/Jarkom-Modul-2-F09-2022/blob/master/img/no_2c.png)
+
 
 ## NO 11.
 
