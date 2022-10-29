@@ -68,8 +68,22 @@ Memodifikasi config pada file `/etc/bind/wise/wise.f09.com`. Menggunakan NS untu
 
 ![3.a](https://github.com/mlintang20/Jarkom-Modul-2-F09-2022/blob/master/img/no_3a.png)
 
-tes melakukan ping ke `eden.wise.F09.com` , dan dapat dilihat berhasil:
+tes melakukan ping ke `www.eden.wise.F09.com` , dan dapat dilihat berhasil:
 ![hasil](https://github.com/mlintang20/Jarkom-Modul-2-F09-2022/blob/master/img/no_3b.png)
+
+## NO 4
+
+###  Buat juga reverse domain untuk domain utama
+
+Menambahkan 3.33.10.in-addr.arpa pada file `/etc/bind/named.conf.local`
+![4.a](https://github.com/mlintang20/Jarkom-Modul-2-F09-2022/blob/master/img/no_4a.png)
+
+Memodifikasi config pada file `/etc/bind/wise/3.33.10.in-addr.arpa`. Menggunakan NS untuk mendelegasikan zone yang telah dibuat pada 3.33.10.in-addr.arpa dengan domain wise.f09.com. Menggunakan PTR untuk mereverse domain dengan 2 sebagai byte keempat dari IP wise. Berikut adalah modifikasi config yang telah dilakukan:
+
+![4.b](https://github.com/mlintang20/Jarkom-Modul-2-F09-2022/blob/master/img/no_4b.png)
+
+berikut adalah hasil nya, setelah dilakukan percobaan :
+![hasil](https://github.com/mlintang20/Jarkom-Modul-2-F09-2022/blob/master/img/no_4c.png)
 
 ## NO 6.
 
