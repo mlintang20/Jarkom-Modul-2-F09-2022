@@ -34,10 +34,12 @@ Untuk melakukan directory listing pada folder /public, di dalam file konfigurasi
     Option +Indexes
  </Directory>
 ```
+  
+![Screenshot Soal 11a](https://github.com/mlintang20/Jarkom-Modul-2-F09-2022/blob/master/img/no_11a.png)    
     
 Setelah itu, kita bisa melakukan lynx domain www.eden.wise.f09.com/public dan akan mendapatkan hasil seperti berikut :
     
-Gambar
+![Screenshot Soal 11b](https://github.com/mlintang20/Jarkom-Modul-2-F09-2022/blob/master/img/no_11b.png)
     
 ## NO 12.
     
@@ -48,14 +50,16 @@ Gambar
 Untuk mengganti error kode pada apache, maka file konfigurasi bisa ditambahkan baris seperti berikut :
     
 `ErrorDocument 404 /error/404.html`
+  
+![Screenshot Soal 12a](https://github.com/mlintang20/Jarkom-Modul-2-F09-2022/blob/master/img/no_12a.png)    
     
- Setelah itu, kita bisa melakukan lynx domain yang salah, maka akan mendapatkan hasil seperti berikut :   
+Setelah itu, kita bisa melakukan lynx domain yang salah, maka akan mendapatkan hasil seperti berikut :   
     
- Gambar
+![Screenshot Soal 12b](https://github.com/mlintang20/Jarkom-Modul-2-F09-2022/blob/master/img/no_12b.png)
     
- ## NO. 13
+## NO. 13
     
- ### Loid juga meminta Franky untuk dibuatkan konfigurasi virtual host. Virtual host ini bertujuan untuk dapat mengakses file asset www.eden.wise.yyy.com/public/js menjadi www.eden.wise.yyy.com/js.
+### Loid juga meminta Franky untuk dibuatkan konfigurasi virtual host. Virtual host ini bertujuan untuk dapat mengakses file asset www.eden.wise.yyy.com/public/js menjadi www.eden.wise.yyy.com/js.
     
  ### **Jawab :**
     
@@ -63,9 +67,11 @@ Untuk mengganti error kode pada apache, maka file konfigurasi bisa ditambahkan b
     
  `Alias "/js" "/var/www/eden.wise.f09.com/public/js"`   
    
+![Screenshot Soal 13a](https://github.com/mlintang20/Jarkom-Modul-2-F09-2022/blob/master/img/no_13a.png)    
+    
 Saat mencoba melakukan lynx www.eden.wise.f09.com/js, maka hasilnya akan sama dengan melakukan lynx www.eden.wise.f09.com/public/js.
     
-Gambar
+![Screenshot Soal 13b](https://github.com/mlintang20/Jarkom-Modul-2-F09-2022/blob/master/img/no_13b.png)  
     
 ## NO. 14
     
