@@ -126,6 +126,24 @@ lynx www.wise.F09.com
 
 ![NO8](img/no_8c.png)
 
+## NO 9.
+
+### Setelah itu, Loid juga membutuhkan agar url www.wise.yyy.com/index.php/home dapat menjadi menjadi www.wise.yyy.com/home
+
+### **Jawab :**
+
+- Di server _Eden_ pada file **/etc/apache2/sites-available/wise.F09.com.conf** tambahkan alias **/home** jika url yang diakses adalah www.wise.F09.com/index.php/home
+
+![NO9](img/no_9a.png)
+
+- Testing dengan melakukan lynx ke **lynx www.wise.F09.com/home** dan hasil yang keluar akan sama dengan ketika mengakses **lynx www.wise.F09.com/index.php/home**
+
+```
+lynx www.wise.F09.com/home
+```
+
+![NO9](img/no_9b.png)
+
 ## NO 11.
 
 ### Akan tetapi, pada folder /public, Loid ingin hanya dapat melakukan directory listing saja.
