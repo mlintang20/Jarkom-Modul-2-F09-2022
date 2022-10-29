@@ -29,9 +29,11 @@
     
 Untuk melakukan directory listing pada folder /public, di dalam file konfigurasi /etc/apache2/sites-available/eden.wise.f09.com bisa ditambahkan baris seperti berikut :
 
-`<Directory /var/www/eden.wise.f09.com/public>
+```
+ <Directory /var/www/eden.wise.f09.com/public>
     Option +Indexes
- </Directory>`
+ </Directory>
+```
     
 Setelah itu, kita bisa melakukan lynx domain www.eden.wise.f09.com/public dan akan mendapatkan hasil seperti berikut :
     
@@ -78,12 +80,14 @@ Pertama - tama, buat situs baru yaitu www.strix.operation.wise.f09.com dengan me
     
  Masuk ke dalam konfigurainya, dan lakukan beberapa edit dengan menyetting port menjadi 15000 dan 15500, dan sesuaikan ServerName, DocumentRoot, dan ServerAlias.
     
- `<VirtualHost *:15000 *:15500>
+ ```
+  <VirtualHost *:15000 *:15500>
   ServerName strix.operation.wise.f09.com
   ServerAdmin webmaster@localhost
   DocumentRoot /var/www/strix.operation.wise.f09.com
   ServerAlias www.strix.operation.wise.f09.com
 
-  ... `
+  ... 
+ ```
     
     
