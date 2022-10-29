@@ -85,6 +85,24 @@ Memodifikasi config pada file `/etc/bind/wise/3.33.10.in-addr.arpa`. Menggunakan
 berikut adalah hasil nya, setelah dilakukan percobaan :
 ![hasil](https://github.com/mlintang20/Jarkom-Modul-2-F09-2022/blob/master/img/no_4c.png)
 
+## NO 5.
+
+###  Agar dapat tetap dihubungi jika server WISE bermasalah, buatlah juga Berlint sebagai DNS Slave untuk domain utama 
+
+Memodifikasi zone wise.F09.com pada `/etc/named.conf.local` wise dengan menambahkan notify kepada Berlint sebagai DNS slave.
+
+![5.a](https://github.com/mlintang20/Jarkom-Modul-2-F09-2022/blob/master/img/no_5a.png)
+
+Menambahkan zone wise.F09.com pada `/etc/named.conf.local` pada Berlint sebagai DNS Slave dari wise.
+![5.b](https://github.com/mlintang20/Jarkom-Modul-2-F09-2022/blob/master/img/no_5b.png)
+
+Testing ping wise.F09.com dengan mematikan service bind9 wise
+![5](https://github.com/mlintang20/Jarkom-Modul-2-F09-2022/blob/master/img/no_5c.png)
+
+SSS sebagai client dapat melakukan ping ke wise.F09.com meskipun server wise telah mati
+![5](https://github.com/mlintang20/Jarkom-Modul-2-F09-2022/blob/master/img/no_5d.png)
+
+
 ## NO 6.
 
 ### Karena banyak informasi dari Handler, buatlah subdomain yang khusus untuk operation yaitu operation.wise.yyy.com dengan alias www.operation.wise.yyy.com yang didelegasikan dari WISE ke Berlint dengan IP menuju ke Eden dalam folder operation
