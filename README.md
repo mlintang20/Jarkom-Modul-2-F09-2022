@@ -53,6 +53,7 @@ lalu memodifikasi config pada `/etc/bind/wise/wise.f09.com` Menggunakan NS untuk
 ![hasil](https://github.com/mlintang20/Jarkom-Modul-2-F09-2022/blob/master/img/no_2b.png)
 
 berikut adalah hasilnya setelah dicoba:
+
 ![hasil](https://github.com/mlintang20/Jarkom-Modul-2-F09-2022/blob/master/img/no_2c.png)
 
 
