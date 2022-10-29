@@ -342,3 +342,4 @@ Maka hasilnya akan seperti ini :
 - Beberapa kali terjadi error dan lama untuk menemukan solusinya, ternyata perlu untuk restart bind9 `service bind9 restart`
 - Beberapa kali terjadi error pada web server dan lama untuk menemukan solusinya, ternyata perlu untuk restart apache2 `service apache2 restart`
 - Tidak bisa ping karena ada yang typo pada file-file konfigurasi
+- Tidak bisa ping karena salah nameserver pada file **/etc/resolv.conf**
