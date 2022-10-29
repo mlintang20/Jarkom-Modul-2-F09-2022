@@ -42,6 +42,9 @@ lalu untuk mengecheck apakah semua node sudah terkoneksi internet , kita dapat m
 ### garden
 ![GARDEN](https://github.com/mlintang20/Jarkom-Modul-2-F09-2022/blob/master/img/no_1f.png)
 
+
+## NO 3.
+
 ## NO 2.
 
 ### Untuk mempermudah mendapatkan informasi mengenai misi dari Handler, bantulah Loid membuat website utama dengan akses wise.yyy.com dengan alias www.wise.yyy.com pada folder wise.
